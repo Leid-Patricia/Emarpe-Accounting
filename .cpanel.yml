@@ -4,3 +4,9 @@ deployment:
     - export DEPLOYPATH=/home/emarpeaccounting/repositories/Emarpe-Accounting
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp contabilidadeconsultiva.html $DEPLOYPATH
+    - /bin/cp contatos.html $DEPLOYPATH
+    - /bin/cp serviços.html $DEPLOYPATH
+    - /bin/cp site.html $DEPLOYPATH
+    - /bin/cp blog.html $DEPLOYPATH
+    - /bin/cp sobre.html $DEPLOYPATH
