@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/emarpeaccounting/repositories/Emarpe-Accounting
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
