@@ -1,0 +1,11 @@
+.logoemarpe {
+  display: none;
+}
+@media (max-width: 1024px) {
+  .logoemarpe {
+    display: inline;
+  }
+  .mainemarpelogo {
+    display: none;
+  }
+}
