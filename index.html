@@ -17,6 +17,10 @@
     />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+
+
   </head>
   <body class="body-bg">
     <div id="preloader-active">
@@ -72,7 +76,7 @@
                 <div class="col-xl-2 col-lg-2 col-sm-12 col-xs-12">
                   <div class="logo text-center" >
                     <a href="index.html"
-                      ><img height="150" width="300" style="margin-top: -20px; margin-left: 35px;"
+                      ><img height="150" width="300" style="margin-top: -20px; "
 
                         src="assets/img/logo/logo.png"
                         alt=""
@@ -93,9 +97,9 @@
                       <nav>
                         <ul id="navigation">
                           <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-                          <li><a href="sobre.html">sobre</a></li>
+                          <li><a href="sobre.html">Sobre</a></li>
                           <li><a href="serviços.html">Serviços</a></li>
-                          <li><a href="contabilidadeconsultiva.html">contabilidade consultiva</a></li>
+                          <li><a href="contabilidadeconsultiva.html">Contabilidade Consultiva</a></li>
                           <li>
                             <a href="blog.html">Blog</a>
                           </li>
@@ -225,7 +229,7 @@
             </div>
             <div class="col-md-6 pl-md-5 py-5">
               <div class="row justify-content-start pb-3">
-              <div class="col-md-12 heading-section ftco-animate">
+              <div class="col-md-12 heading-section ftco-animate container">
               <h1 class="mb-4" style="text-align: center; color: rgb(206, 141, 55); margin-top:-100px;">Importância da contabilidade Empresarial</h1>
               <h4 style="text-align: justify; font-size: 20px;  color: white;">A contabilidade empresarial tem papel significativo na eficiência organizacional.
 
@@ -392,75 +396,54 @@
               </div>
               </div> 
             </div>
-          <div class="brand-active brand-border pb-40">
-            <div class="single-brand" style="margin-top: -100px;">
-              
-              <img  height="300" width="200"  
+          <div >
+            <div class="owl-carousel owl-theme">
+              <div class="item" >   <img  height="250"   width="250"
                 src="assets/img/gallery/Alien Group Lda.png"
                 alt=""
-              />
-            </div>
-            <div class="single-brand">
-              <img  height="200" width="200"
+              /> </div>
+              <div class="item" ><img  height="250" width="250"
                 src="assets/img/gallery/unnamed.png"
                 alt=""
-              />
-            </div>
-            <div class="single-brand">
-              <img  height="200" width="200"
+              /></div>
+              <div class="item" > <img  height="250" width="250"
                 src="assets/img/gallery/ADN logo.png"
                 alt=""
-              />
-            </div>
-            <div class="single-brand">
-              <img height="200" width="200"
+              /></div>
+              <div class="item" > <img height="250" width="250" 
                 src="assets/img/gallery/CHK.jpg"
                 alt=""
-              />
-            </div>
-            <div class="single-brand">
-              <img  height="200" width="200"
-                src="assets/img/gallery/Forvip.jfif"
-                alt=""
-              />
-            </div>
-            <div class="single-brand">
-              <img  height="200" width="200"
+              /></div>
+              <div class="item" >    <img  height="250" width="250"
                 src="assets/img/gallery/F1.png"
                 alt=""
-              />
-            </div>
-            <div class="single-brand">
-              <img  height="200" width="200"
+              /></div>
+              <div class="item" >    <img  height="250" width="250" 
                 src="assets/img/gallery/Ya Mortalha.png"
                 alt=""
-              />
-            </div>
-            <div class="single-brand">
-              <img height="250" width="250"
+              /></div>
+              <div class="item" > <img height="250" width="250"
                 src="assets/img/gallery/Hambienthus.png"
                 alt=""
-              />
-            </div>
-            <div class="single-brand" style="margin-top: 80px;">
-              <img  height="100" width="200"
+              /></div>
+              <div class="item" >  <img  height="250" width="250"
                 src="assets/img/gallery/Helianthus.png"
                 alt=""
-              />
-            </div>
-            <div class="single-brand">
-            <img  height="200" width="200"
+              /></div>
+              <div class="item" > <img  height="250" width="250"
                 src="assets/img/gallery/unnamed.jpg"
                 alt=""
-              />
-            </div>
-            <div class="single-brand">
-            <img  height="200" width="200"
-            src="assets/img/gallery/MR Conceitus.jpeg"
-            alt=""
-          />
+              /></div>
+              <div class="item" ><img  height="200"
+                src="assets/img/gallery/MR Conceitus.jpeg"
+                alt=""
+              /></div>
+          </div>
+            
+            
         </div>
           </div>
+  
         </div>
       </div>
     </main>
@@ -605,6 +588,28 @@
     </script>
 
     <script src="assets/js/owl.carousel.min.js%2bslick.min.js.pagespeed.jc.0HuYAXhOLP.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script>
+      $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay:true,
+    autoplayTimeout:1300,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+
+    </script>
     <script>
       eval(mod_pagespeed_Tg_4Ti9hlJ);
     </script>
