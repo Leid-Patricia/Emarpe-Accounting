@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="zxx">
+<html class="no-js" lang="pt" xml:lang="pt">
   <!-- Mirrored from preview.colorlib.com/theme/consultingbiz/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 20 Jul 2021 09:26:23 GMT -->
   <head>
     <meta charset="utf-8" />
@@ -19,7 +19,47 @@
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="assets/css/fontawsome.css" />
     <link rel="stylesheet" href="assets/css/styles.css">
+    <style type="text/css">
+      /*google translate Dropdown */
 
+      #google_translate_element select {
+        background: #f6edfd;
+        color: #383ffa;
+        border: none;
+        border-radius: 3px;
+        padding: 6px 8px;
+        width: 150px;
+      }
+
+      /*google translate link | logo */
+      .goog-logo-link {
+        display: none !important;
+      }
+      .goog-te-gadget {
+        color: transparent !important;
+      }
+
+      /* google translate banner-frame */
+
+      .goog-te-banner-frame {
+        height: 40px !important;
+        display: none !important;
+
+      }
+    </style>
+    <script>
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          {
+            pageLanguage: "en",
+            autoDisplay: "true",
+            layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL,
+          },
+          "google_translate_element"
+        );
+      }
+    </script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
   </head>
   <body class="body-bg">
@@ -39,6 +79,7 @@
     <header>
       <div class="header-area">
         <div class="main-header">
+        
           <div class="header-top d-none d-lg-block">
             <div class="container">
               <div class="col-xl-12">
@@ -57,10 +98,7 @@
                   <div class="header-info-right">
                     <ul class="header-social">
                       <li>
-                        <a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="https://www.linkedin.com/company/emarpe-accounting"><i class="fab fa-linkedin-in"></i></a>
                       </li>
                     </ul>
                   </div>
@@ -106,8 +144,10 @@
                             <a href="blog.html">Blog</a>
                           </li>
                           <li><a href="contactos.html">Contactos</a></li>
+                          <!-- <li >  <div   id="google_translate_element"></div></li> -->
                         </ul>
                       </nav>
+          
                     </div>
                   </div>
                 </div>
@@ -120,7 +160,9 @@
       </div>
     </header>
     <main>
+     
       <div class="slider-area" >
+        <div style="position: fixed; padding-top: 20px; z-index: 2;"  id="google_translate_element"></div> 
         <div class="slider-active">
            <div class="single-slider slider-height d-flex align-items-center">
             <div class="container" style="margin-top: 70px;">
@@ -553,10 +595,9 @@
                 <div class="col-xl-3 col-lg-4">
                   <div class="footer-social f-right" style="margin-right: 30px;">
                    
-                    <a href="https://www.linkedin.com"
+                    <a href="https://www.linkedin.com/company/emarpe-accounting"
                       ><i style="margin-right: 5px;" class="fab fa-linkedin-in"></i 
                     ></a>
-                    <a href="#"><i style="margin-right: 5px;" class="fas fa-globe"></i></a>
                    
                   </div>
                 </div>
